@@ -1,0 +1,118 @@
+        @font-face {
+          font-family: time;
+          src: url(../font/timeburnernormal.ttf);
+        }
+
+        @font-face {
+          font-family: timebold;
+          src: url(../font/timeburnerbold.ttf);
+        }
+
+        body,
+        html {
+          height: 100%;
+          text-align: center;
+        }
+
+        .parallax {
+          background-image: url("https://www.sas.com/content/dam/SAS/en_us/image/sas-com/company/workplace/SAS-BldQ-sunset.jpg");
+          height: 100%;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .caption {
+          position: absolute;
+          left: 0px;
+          top: 50%;
+          width: 100%;
+          text-align: center;
+          color: white;
+        }
+
+        .caption span.border {
+          background-color: dimgrey;
+          color: #fff;
+          padding: 25px;
+          font-size: 35px;
+          letter-spacing: 10px;
+          font-family: timebold;
+          line-height: 100px;
+        }
+
+        .caption1 {
+          text-align: center;
+          color: black;
+        }
+
+        .caption1 span.border1 {
+          background-color: white;
+          color: black;
+          padding: 25px;
+          font-size: 50px;
+          letter-spacing: 8px;
+          font-family: timebold;
+          line-height: 80px;
+          margin: 25px auto;
+          display: inline-block;
+        }
+
+        .caption1 span.border2 {
+          display: inline-block;
+          background-color: white;
+          color: black;
+          padding: 15px;
+          font-size: 25px;
+          letter-spacing: 1px;
+          font-family: time;
+          line-height: 40px;
+          width: 80%;
+          margin: 0 auto;
+        }
+
+        .topnav {
+          overflow: hidden;
+          background-color: black;
+          font-family: time;
+        }
+
+        .topnav a {
+          float: left;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .topnav a:hover {
+          background-color: white;
+          color: black;
+        }
+
+        .topnav a:active {
+          background-color: darkgray;
+          color: black;
+        }
+
+        .button {
+          display: inline-block;
+          background-color: dimgrey;
+          border: none;
+          color: white;
+          padding: 25px 50px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 30px;
+          margin: 10px auto;
+          cursor: pointer;
+          font-family: time;
+        }
+
+        .img {
+          margin: 20px auto;
+          display: block;
+          width: 40%;
+        }
